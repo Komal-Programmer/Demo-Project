@@ -8,6 +8,9 @@ public class ArrayList {
 		List<String> obj=Arrays.asList("Vishal","Komal","Rohit","Pritish");
 		
 		System.out.println(obj);
+		for(String str: obj) {
+			System.out.println(str);
+		}
 
 	}
 
